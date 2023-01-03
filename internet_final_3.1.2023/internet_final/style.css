@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('original.gif');
+    background-position: center;
+    background-size: cover;
+}
+p{
+    font-size: 10px;
+    color: #fff;
+    line-height: 16px; 
+}
+.navbar {
+   height: 12%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    column-gap: 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration:none;
+    transition: ease 0.5s;
+}
+nav ul li a:hover{
+    color: #000;
+}
+.row{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    height: 88%;
+}
+.col{
+    flex-basis: 50%;
+}
+h3{
+    color: #fff;
+    font-size: 80px;
+}
+.desc{
+    font-size: 10px;
+}
+
+
+
+.contact-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-left{
+    width: 40%;
+    padding: 3rem;
+}
+.cont-top{
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #ffffff;
+}
+.cont-element{
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.cont-element i{
+    color: #ffffff;
+    padding: 0.7rem;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    transition: all 0.4s ease;
+}
+.cont-element:hover i{
+    background-color: #ffffff;
+    color: #011627;
+}
+.cont-element a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.cont-bottom{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cont-bottom a{
+    color: #ffffff;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #181818;
+    border-radius: 50%;
+}
+.cont-bottom a:hover{
+    color: #181818;
+    background-color: #ffffff;
+}
+
+
+.cont-right{
+    width: 50%;
+    padding: 1rem;
+}
+.cont-right form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cont-right form input, textarea, button,select,option{
+    width: 80%;
+    margin: 1rem 0;
+    background-color: transparent;
+    font-size: 1.0rem;
+    padding: 0.4rem 1rem;
+    outline: none;
+    border: 1px solid #ffffff;
+    color: #ffffff; 
+    transition: all 0.4s ease;
+}
+.cont-right form button,select,option{
+    background-color: #ffffff;
+    color: #011627;
+    cursor: pointer;
+}
+.cont-right form button:hover{
+    background-color: #011627;
+    color: #ffffff;
+}
+.cont-right form input:hover, textarea:hover {
+    color: #011627;
+    background-color: #ffffff;
+}
+.cont-right form input:focus, textarea:focus {
+    color: #011627;
+    background-color: #ffffff;
+}
